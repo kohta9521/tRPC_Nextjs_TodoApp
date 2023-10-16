@@ -49,3 +49,5 @@ app.use("/trpc", trpcExpress.createExpressMiddleware({
 
 
 app.listen(PORT);
+
+export type AppRouter = typeof appRouter;
